@@ -46,7 +46,6 @@ int validarLogin() {
             if (strcmp(cpf, cpfArquivo) == 0 && strcmp(senha, senhaArquivo) == 0) {
                 fclose(arquivo);
                 printf("Login bem-sucedido!\n");
-                
                 return 0;
             }
         }
